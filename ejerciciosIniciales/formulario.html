@@ -1,13 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script defer src="js/ejer3.js"></script>
+    <title>ejer1</title>
 </head>
+
 <body>
-    
+    <form action="" id="formulario">
+        <fieldset>
+            <div>
+                <label for="nombreDisco">Nombre del disco:</label>
+                <input type="text" id="nombreDisco" name="nombreDisco">
+            </div>
+            <br>
+            <div>
+                <label for="grupo">Nombre del grupo:</label>
+                <input type="text" id="grupo" name="grupo">
+            </div>
+            <br>
+            <div>
+                <label for="year">Año de publicación:</label>
+                <input type="date" id="year" name="year">
+            </div>
+            <br>
+            <div>
+                <label for="tipoMusica">Tipo de música:</label>
+                <select name="tipoMusica" id="tipoMusica">
+                    <option value="">Rock</option>
+                    <option value="">Pop</option>
+                    <option value="">Punk</option>
+                    <option value="">Indie</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="localizacion">Localizacion:</label>
+                <input type="number" id="localizacion" name="localizacion">
+            </div>
+            <br>
+            <div>
+                <label for="prestado">Prestado:</label>
+                <input type="checkbox" name="prestado" id="prestado">
+            </div>
+            <br>
+            <div>
+                <button id="enviar">Enviar</button>
+            </div>
+        </fieldset>
+    </form>
 </body>
+
 </html>
